@@ -132,6 +132,9 @@ BOARD_SUPER_PARTITION_GROUPS := main
 TARGET_SYSTEM_PROP += $(DEVICE_PATH)/system.prop
 TARGET_PRODUCT_PROP += $(DEVICE_PATH)/product.prop
 
+# Prebuilt vendor because AB OTA kills the entire partition group
+BOARD_PREBUILT_VENDORIMAGE := device/xiaomi/pissarro/prebuilt/vendor.img
+
 # Recovery
 BOARD_INCLUDE_DTB_IN_BOOTIMG := true
 BOARD_USES_RECOVERY_AS_BOOT := true
