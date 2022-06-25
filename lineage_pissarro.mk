@@ -34,14 +34,13 @@ TARGET_SCREEN_WIDTH := 1080
 PRODUCT_DEVICE := pissarro
 PRODUCT_NAME := aosp_pissarro
 PRODUCT_BRAND := Redmi
-PRODUCT_MODEL := 21091116C
+PRODUCT_MODEL := Xiaomi 11i 5g
 PRODUCT_MANUFACTURER := Xiaomi
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    PRODUCT_DEVICE=ares \
-    PRODUCT_NAME=ares \
-    PRIVATE_BUILD_DESC="pissarro-user 11 RP1A.200720.011 V12.5.6.0. RKTINFK release-keys"
+    PRIVATE_BUILD_DESC="pissarro-user 11 RP1A.200720.011 V12.5.7.0.RKTINFK release-keys"
 
-BUILD_FINGERPRINT := Xiaomi/pissarro/pissarro:11/RP1A.200720.011/V12.5.6.0.RKTINFK:user/release-keys
+
+BUILD_FINGERPRINT := Xiaomi/pissarro/pissarro:11/RP1A.200720.011/V12.5.7.0.RKTINFK:user/release-keys
